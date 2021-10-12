@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6007849528392175170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6007849528392175199}
+  - component: {fileID: 6007849528392175196}
+  - component: {fileID: 6007849528392175197}
+  m_Layer: 0
+  m_Name: settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6007849528392175199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007849528392175170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 267.21344, y: 394.42493, z: -1.9072266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6007849528392175196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007849528392175170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5563ae56504bd9a4a842f2a6468761da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tickingTimer: -1
+  spawnTime: 2
+  allSpawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  occupiedPoint: -1
+  currentFloorTint: -1
+  floorRenderer: {fileID: 0}
+  floorTints:
+  - {fileID: 2100000, guid: 1e389137840870f41a88c3ecf9381f05, type: 2}
+  - {fileID: 2100000, guid: e5cbb715bf08bee4191fe4a9d78b90e1, type: 2}
+  - {fileID: 2100000, guid: 82b5b083b6296fe45914e4357d58ee39, type: 2}
+  nextButtonObject: {fileID: 0}
+  itemsTransform: {fileID: 0}
+  key: {fileID: 1626105908752552913, guid: fdd7c1584098c6245ba851eb4bb466b3, type: 3}
+  exit: {fileID: 9200406365623048096, guid: f3304f2391bf0e541aca948baf2307a6, type: 3}
+  gamePhase: 0
+--- !u!114 &6007849528392175197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6007849528392175170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4308fcb438a7aa64bb668e97c13bb363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 0}
+  number: {fileID: 0}
+  waitingText: 'Key spawns in:'
+  keyText: Find the key!
+  exitText: Exit the level!
